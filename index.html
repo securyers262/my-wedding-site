@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Cormorant+Garamond:ital,wght@0,400;0,700;1,400;1,500&family=Pinyon+Script&display=swap');
+
+        body {
+            margin: 0;
+            background-color: #fdfafb;
+            font-family: 'Cormorant Garamond', serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .card {
+            width: 100%;
+            max-width: 400px;
+            padding: 40px 20px;
+            text-align: center;
+            background: #ffffff;
+            border-radius: 20px;
+            margin-top: 20px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.03);
+        }
+
+        /* Первая часть */
+        .photo-arch {
+            width: 240px;
+            height: 320px;
+            margin: 0 auto 30px;
+            border-radius: 120px 120px 0 0;
+            background-color: #ffeef4;
+            overflow: hidden;
+            border: 1px solid #ffdae9;
+            background-image: url('photo.jpeg');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .name { font-family: 'Great Vibes', cursive; font-size: 5rem; color: #d63384; margin: 0 0 15px 0; font-weight: 400; }
+        .qyz-uzaty { font-size: 1.8rem; color: #555; text-transform: uppercase; letter-spacing: 2px; }
+        .date { font-size: 1.6rem; color: #d63384; margin-bottom: 20px; }
+
+        /* Вторая часть - "Приглашение" */
+        .invitation-section {
+            width: 90%;
+            max-width: 380px;
+            margin: 30px auto;
+            padding: 50px 30px;
+            background: #ffffff;
+            border: 1px solid #eee;
+            border-radius: 15px;
+            text-align: center;
+            /* Элегантная тень */
+            box-shadow: 0 10px 40px rgba(0,0,0,0.05);
+            position: relative;
+        }
+
+        .greeting {
+            font-family: 'Pinyon Script', cursive;
+            font-size: 3.8rem;
+            color: #d63384;
+            margin-bottom: 25px;
+            display: block;
+        }
+
+        .guest-list {
+            font-size: 1.3rem;
+            line-height: 2.2;
+            color: #444;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        /* Декоративная линия между заголовком и текстом */
+        .guest-list::before {
+            content: "—";
+            display: block;
+            margin-bottom: 15px;
+            color: #d63384;
+            font-size: 1.5rem;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <div class="photo-arch"></div>
+        <h1 class="name">Асель</h1>
+        <div class="qyz-uzaty">QYZ UZATY</div>
+        <div class="date">07/08/2026</div>
+    </div>
+
+
+
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #fff0f5;
+            font-family: 'Georgia', serif;
+        }
+
+        .container {
+            padding: 20px;
+            width: 90%;
+            max-width: 400px;
+        }
+
+        .card {
+            background-color: #ffffff;
+            padding: 40px 20px;
+            border-radius: 50px;
+            border: 2px solid #ffccd5;
+            text-align: center;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+        }
+
+        .title {
+            font-size: 2.5rem;
+            color: #d63384;
+            margin-bottom: 20px;
+            font-style: italic;
+        }
+
+        .text {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            color: #555;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="card">
+            <h1 class="title">Құрметті</h1>
+            <p class="text">
+                АҒАЙЫН - ТУЫС,<br>
+                БАУЫРЛАР,<br>
+                ҚҰДА- ЖЕКЖАТ,<br>
+                НАҒАШЫ ЖИЕН, БӨЛЕЛЕР,<br>
+                ӘПКЕ-ЖЕЗДЕ,<br>
+                ҚҰРДАСТАР, ДОСТАР,<br>
+                ӘРІПТЕСТЕР, КӨРШІЛЕР!
+            </p>
+        </div>
+    </div>
+
+</body>
+
+
+
+
+
+
+<style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #fff0f5; /* Нежно-розовый фон всей страницы */
+            font-family: 'Georgia', serif;
+            display: flex;
+            justify-content: center;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 450px;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .text-block {
+            margin: 30px 0;
+            color: #d63384; /* Розовый цвет текста */
+            background: white;
+            padding: 20px;
+            border-radius: 30px;
+            border: 2px solid #ffccd5;
+        }
+
+        .hero-name {
+            font-size: 2.5rem;
+            font-style: italic;
+            margin: 10px 0;
+            color: #ff1493; /* Яркий розовый для имени */
+        }
+
+        /* Основное фото */
+        .main-photo {
+            width: 100%;
+            height: 400px;
+            background-image: url('photo1.jpeg');
+            background-size: cover;
+            background-position: center;
+            border-radius: 30px;
+            margin-bottom: 30px;
+            border: 4px solid white;
+        }
+
+        /* Блок "Той салтанаты" */
+        .footer-block {
+            padding: 40px 20px;
+            border-radius: 30px;
+            background-color: white;
+            border: 2px solid #ffccd5;
+            color: #d63384;
+            font-size: 2rem;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="text-block">
+            <p>СІЗДЕРДІ АЯУЛЫ ҚЫЗЫМЫЗ</p>
+            <h1 class="hero-name">Асельдің</h1>
+            <p>ҰЗАТУЫНА АРНАЛЫП ЖАЙЫЛҒАН АҚ ДАСТАРХАНЫМЫЗДЫҢ ҚАДІРЛІ ҚОНАҒЫ БОЛУҒА ШАҚЫРАМЫЗ!</p>
+        </div>
+
+        <div class="main-photo"></div>
+
+      
+    </div>
+
+</body>
+
+
+
+
+
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body { background-color: #fff0f5; font-family: 'Georgia', serif; display: flex; justify-content: center; padding: 20px; }
+        .card { background: white; padding: 40px 20px; border-radius: 50px; border: 2px solid #ffccd5; text-align: center; max-width: 400px; width: 100%; }
+        
+        .title { font-size: 2rem; color: #d63384; font-style: italic; margin-bottom: 20px; }
+        .date-info { font-size: 1.5rem; color: #555; margin: 10px 0; }
+        
+        .calendar { display: grid; grid-template-columns: repeat(7, 1fr); gap: 10px; margin: 30px 0; color: #444; }
+        .day-name { font-weight: bold; color: #d63384; }
+        .highlight { border: 2px solid #ffccd5; border-radius: 50%; padding: 5px; color: #d63384; font-weight: bold; }
+        
+        .location { margin-top: 30px; color: #555; }
+        .venue { font-size: 1.8rem; color: #d63384; font-weight: bold; margin-top: 10px; }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <div class="title">Той салтанаты</div>
+
+    <div style="border-top: 1px solid #ffccd5; padding-top: 20px; color: #d63384;">
+        <p style="font-size: 1.1rem; margin: 0;">ТОЙ ИЕСІ:</p>
+        <p style="font-size: 1.3rem; font-weight: bold; margin: 5px 0;">АЙГҮЛ</p>
+    </div>
+    
+    <div class="date-info">7 тамыз 2026 жыл</div>
+    <div class="date-info">Басталуы 17:00-де</div>
+
+    <div class="calendar">
+        <div class="day-name">Дс</div><div class="day-name">Сс</div><div class="day-name">Ср</div>
+        <div class="day-name">Бс</div><div class="day-name">Жм</div><div class="day-name">Сб</div>
+        <div class="day-name">Жб</div>
+        
+        <div></div><div></div><div></div><div></div><div></div><div></div>
+        <div>01</div>
+        <div>02</div><div>03</div><div>04</div><div>05</div><div>06</div><div class="highlight">07</div><div>08</div>
+        <div>09</div><div>10</div><div>11</div><div>12</div><div>13</div><div>14</div><div>15</div>
+        <div>16</div><div>17</div><div>18</div><div>19</div><div>20</div><div>21</div><div>22</div>
+        <div>23</div><div>24</div><div>25</div><div>26</div><div>27</div><div>28</div><div>29</div>
+        <div>30</div><div>31</div>
+    </div>
+
+    <div class="location">
+        <p>Мекен-жайымыз:<br>
+        АЛМАТЫ ҚАЛАСЫ<br>
+        УЛИЦА УМУРЗАКОВА, 76</p>
+        <div class="venue">"PREMIER HALL" РЕСТОРАНЫ</div>
+    </div>
+</div>
+
+</body>
+
+
+
+
+
+
+
+<div class="card">
+    <div style="width: 100%; height: 180px; margin-bottom: 25px; overflow: hidden; border-radius: 20px; border: 1px solid #eee; box-shadow: 0 5px 15px rgba(0,0,0,0.05);">
+    <img src="2gis.png" alt="Карта ресторана GOLD" style="width: 100%; height: 100%; object-fit: cover; border-radius: 20px;">
+</div>
+    
+    <p style="font-size: 1.2rem; line-height: 1.5; color: #555; margin-bottom: 25px;">
+        МЕЙРАМХАНАҒА ЖЕТУ ҮШІН<br>
+        2ГИС ССЫЛКАСЫН<br>
+        ҚОЛДАНСАҢЫЗ БОЛАДЫ!
+    </p>
+
+    <a href="https://2gis.kz/almaty/geo/70000001024247901" style="display: inline-block; background-color: #d63384; color: white; padding: 15px 30px; text-decoration: none; border-radius: 25px; font-weight: bold; margin-bottom: 40px;">
+        Картаны ашу
+    </a>
+
+    
+</div>
+
+
+
+
+
+
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+    .rsvp-card {
+        max-width: 400px;
+        margin: 40px auto;
+        padding: 40px;
+        background: #ffffff;
+        border-radius: 45px;
+        box-shadow: 0 20px 40px rgba(0,0,0,0.06);
+        /* Применяем красивый шрифт */
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+    }
+
+    .rsvp-card h2 {
+        font-weight: 600;
+        color: #333;
+        margin-bottom: 25px;
+        font-size: 22px;
+    }
+
+    .rsvp-input {
+        width: 100%;
+        padding: 18px 22px;
+        margin: 12px 0;
+        border: 1px solid #eee;
+        border-radius: 20px;
+        font-size: 15px;
+        font-family: 'Montserrat', sans-serif;
+        color: #444;
+        background: #fcfcfc;
+        outline: none;
+        box-sizing: border-box;
+    }
+
+    .rsvp-btn {
+        width: 100%;
+        padding: 18px;
+        margin-top: 15px;
+        background: #d63384;
+        color: white;
+        border: none;
+        border-radius: 20px;
+        font-size: 16px;
+        font-weight: 600;
+        font-family: 'Montserrat', sans-serif;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    /* Эффект для полей ввода при наведении */
+.rsvp-input {
+    /* ... ваши существующие стили ... */
+    transition: all 0.3s ease; /* Плавность перехода */
+    border: 2px solid #f0f0f0;
+}
+
+.rsvp-input:hover {
+    border-color: #ff8da1; /* Нежно-розовая рамка при наведении */
+    background: #fffafa;    /* Легкое изменение фона */
+}
+
+/* Эффект для выпадающего списка при наведении */
+select.rsvp-input:hover {
+    cursor: pointer;
+}
+
+/* Эффект для кнопки */
+.rsvp-btn {
+    /* ... ваши существующие стили ... */
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(214, 51, 132, 0.2);
+}
+
+.rsvp-btn:hover {
+    background: #b82c72; /* Темнее при наведении */
+    transform: translateY(-2px); /* Кнопка чуть «подпрыгивает» вверх */
+    box-shadow: 0 8px 20px rgba(214, 51, 132, 0.3);
+}
+
+.rsvp-btn:active {
+    transform: translateY(0); /* Возвращается при нажатии */
+}
+
+    .rsvp-btn:hover { background: #b82c72; }
+</style>
+
+<div id="rsvp-container" class="rsvp-card">
+    <h2 style="font-weight: 600; color: #333; margin-bottom: 10px; font-size: 22px;">Тойға қатысу</h2>
+
+<p style="font-size: 0.85rem; color: #888; margin-bottom: 25px; line-height: 1.4; font-style: italic;">
+    ТОЙҒА ҚАТЫСУЫҢЫЗДЫ РАСТАУЫҢЫЗДЫ СҰРАЙМЫЗ. <br>
+    (ЖҰБАЙЫҢЫЗБЕН КЕЛЕТІН БОЛСАҢЫЗ, ЕКЕУІҢІЗДІҢ ДЕ ЕСІМДЕРІҢІЗДІ ЖАЗУЫҢЫЗДЫ ӨТІНЕМІЗ)
+</p>
+    
+    <form id="inviteForm">
+        <input type="text" name="name" class="rsvp-input" placeholder="Аты-жөніңіз" required>
+        
+        <select name="status" class="rsvp-input">
+            <option value="ӘРИНЕ КЕЛЕМІН">✅ Әрине келемін</option>
+            <option value="ЖҰБАЙЫММЕН КЕЛЕМІН">👫 Жұбайыммен келемін</option>
+            <option value="КЕЛЕ АЛМАЙМЫН">❌ Өкінішке орай келе алмаймын</option>
+        </select>
+
+        <button type="submit" id="submitBtn" class="rsvp-btn">Жауап беру</button>
+    </form>
+    
+    <div id="message" style="display:none; padding: 20px; color: #d63384; font-weight: 500;"></div>
+</div>
+
+<script>
+  const form = document.getElementById('inviteForm');
+  const btn = document.getElementById('submitBtn');
+  const container = document.getElementById('rsvp-container');
+
+  form.addEventListener('submit', e => {
+    e.preventDefault();
+    btn.innerText = 'Жіберілуде...';
+    
+    fetch('https://script.google.com/macros/s/AKfycbzkQRq41yWt3xXnZsPTbERACrOdztdtATguX7v0nO-0cBBNpK3GCYrZmI-QeHgFLlDzdg/exec', { 
+        method: 'POST', 
+        mode: 'no-cors', 
+        body: new FormData(form) 
+    })
+    .then(() => {
+        container.innerHTML = '<div style="padding: 40px 0; font-family: Montserrat;">' +
+            '<h2 style="color:#d63384;">Рахмет!</h2>' +
+            '<p style="color:#666; font-size:16px;">Жауабыңыз қабылданды.</p>' +
+            '</div>';
+    });
+  });
+</script>
+
+
+
+
+<div style="text-align: center; padding: 40px 20px; font-family: 'Georgia', serif; color: #8c5a6d;">
+    
+    <h2 style="font-size: 1.5rem; margin-bottom: 30px; letter-spacing: 2px;">ТОЙҒА ДЕЙІН ҚАЛДЫ:</h2>
+    
+    <div style="display: flex; justify-content: center; gap: 15px; margin-bottom: 40px;">
+    <div class="timer-circle"><span id="days">0</span><br><span style="font-size: 0.7rem;">күн</span></div>
+    <div class="timer-circle"><span id="hours">0</span><br><span style="font-size: 0.7rem;">сағат</span></div>
+    <div class="timer-circle"><span id="minutes">0</span><br><span style="font-size: 0.7rem;">минут</span></div>
+    <div class="timer-circle"><span id="seconds">0</span><br><span style="font-size: 0.7rem;">секунд</span></div>
+</div>
+
+
+<script>
+    const targetDate = new Date("August 7, 2026 00:00:00").getTime();
+
+    setInterval(function() {
+        const now = new Date().getTime();
+        const diff = targetDate - now;
+
+        const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+        const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+
+        document.getElementById("days").innerText = days;
+        document.getElementById("hours").innerText = hours;
+        document.getElementById("minutes").innerText = minutes;
+        document.getElementById("seconds").innerText = seconds;
+    }, 1000);
+</script>
+
+    
+
+    <h3 style="font-size: 1.2rem; line-height: 1.6; max-width: 300px; margin: 0 auto 40px;">
+        КЕЛІҢІЗДЕР! ТОЙЫМЫЗДЫҢ ҚҰРМЕТТІ ҚОНАҒЫ БОЛЫҢЫЗДАР!
+    </h3>
+
+</div>
+
+<style>
+    .timer-circle {
+        width: 70px;
+        height: 70px;
+        border: 3px solid #a67c52;
+        border-radius: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        color: #a67c52;
+        background: #fffdf9;
+    }
+</style>
+
+</html>
