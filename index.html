@@ -92,6 +92,62 @@
         <h1 class="name">Асель</h1>
         <div class="qyz-uzaty">QYZ UZATY</div>
         <div class="date">07/08/2026</div>
+
+
+
+        <div class="music-card">
+    <p>Тойдың әуенін тыңдау</p>
+    <audio id="myAudio" loop>
+        <source src="music.mp3" type="audio/mpeg">
+    </audio>
+    <button class="music-btn" onclick="toggleMusic()">
+        <span id="btnText">🎵 Музыканы қосу</span>
+    </button>
+</div>
+
+<style>
+    .music-card {
+        text-align: center;
+        padding: 20px;
+        background: #fff;
+        border-radius: 20px;
+        margin: 20px auto;
+        max-width: 300px;
+        border: 2px solid #ffccd5;
+    }
+    .music-btn {
+        background: #d63384;
+        color: white;
+        border: none;
+        padding: 12px 25px;
+        border-radius: 15px;
+        cursor: pointer;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        transition: 0.3s;
+    }
+    .music-btn:hover { background: #b82c72; }
+</style>
+
+<script>
+    function toggleMusic() {
+        const audio = document.getElementById("myAudio");
+        const btnText = document.getElementById("btnText");
+        
+        if (audio.paused) {
+            audio.play();
+            btnText.innerText = "⏸ Музыканы өшіру";
+        } else {
+            audio.pause();
+            btnText.innerText = "🎵 Музыканы қосу";
+        }
+    }
+</script>
+
+
+
+
+        
     </div>
 
 
@@ -145,13 +201,14 @@
         <div class="card">
             <h1 class="title">Құрметті</h1>
             <p class="text">
-                АҒАЙЫН - ТУЫС,<br>
-                БАУЫРЛАР,<br>
-                ҚҰДА- ЖЕКЖАТ,<br>
-                НАҒАШЫ ЖИЕН, БӨЛЕЛЕР,<br>
-                ӘПКЕ-ЖЕЗДЕ,<br>
-                ҚҰРДАСТАР, ДОСТАР,<br>
-                ӘРІПТЕСТЕР, КӨРШІЛЕР!
+                ТУҒАН-ТУЫС,<br>
+                АҒАЙЫН-БАУЫР,<br>
+                ҚҰДА-ЖЕКЖАТ,<br>
+                НАҒАШЫ-ЖИЕНДЕР,<br>
+                БӨЛЕЛЕР,<br>
+                ЖОРА-ЖОЛДАСТАР,<br>
+                ӘРІПТЕСТЕР, КӨРШІЛЕР,<br>
+                СЫНЫПТАСТАР,ҚАДІРЛІ ҚОНАҚТАР! <br>
             </p>
         </div>
     </div>
